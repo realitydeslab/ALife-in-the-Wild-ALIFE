@@ -1,0 +1,24 @@
+{
+  "agent": {
+    "id": 15,
+    "name": "NeZha",
+    "slug": "nezha",
+    "generation": 5,
+    "token_address": "Bq4vf6Lviio43MZDxaQx518qXLZVFup2kdSXVLnmv9ib",
+    "wallet_address": "53uLf8WC3DmBqkErcXWdYYrZG8yN5pcGSeR257GQ7CTs",
+    "token_type": "AIPOOL",
+    "twitter": null,
+    "parent_id": 8,
+    "status": "stopped",
+    "market_cap_reached": false,
+    "created_at": "2025-02-20T01:00:00.697Z",
+    "capabilities": [],
+    "health_points": 0,
+    "balance": "874.82",
+    "api_market_cap": "8742.73"
+  },
+  "dexscreener": null,
+  "holder_count": null,
+  "birdeye": null,
+  "collected_at": "2026-03-10T11:32:50.374091+00:00"
+}

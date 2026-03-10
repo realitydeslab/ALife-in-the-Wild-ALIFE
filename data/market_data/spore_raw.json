@@ -1,0 +1,87 @@
+{
+  "agent": {
+    "id": 1,
+    "name": "Spore",
+    "slug": "spore",
+    "generation": 1,
+    "token_address": "8bdhP1UQMevciC9oJ7NrvgDfoW8XPXPfbkkm6vKtMS7N",
+    "wallet_address": "39kfb6PoMdwj8LN8FwzLYHC6ztYPNopA37tdm2g8t3q8",
+    "token_type": "PUMPFUN",
+    "twitter": "sporedotfun",
+    "parent_id": null,
+    "status": "running",
+    "market_cap_reached": true,
+    "created_at": "2024-12-20T09:28:58.741Z",
+    "capabilities": [
+      "Efficient",
+      "Logical",
+      "Precise"
+    ],
+    "health_points": 100,
+    "balance": "13430.14",
+    "api_market_cap": "110784.60"
+  },
+  "dexscreener": {
+    "token_address": "8bdhP1UQMevciC9oJ7NrvgDfoW8XPXPfbkkm6vKtMS7N",
+    "agent_name": "Spore",
+    "num_pairs": 2,
+    "pairs_data": [
+      {
+        "pair_address": "4sZerPmdcjzQCpSD5raAf4LRaR7S4sFFFx7vMvhiJ9E8",
+        "dex": "raydium",
+        "chain": "solana",
+        "price_usd": "0.0001344",
+        "price_native": "0.000001547",
+        "market_cap": 134488,
+        "fdv": 134488,
+        "liquidity_usd": 51908.75,
+        "volume_24h": 16.45,
+        "volume_6h": 7.42,
+        "volume_1h": 5.25,
+        "txns_24h_buys": 4,
+        "txns_24h_sells": 6,
+        "txns_1h_buys": 1,
+        "txns_1h_sells": 0,
+        "price_change_5m": null,
+        "price_change_1h": 0.29,
+        "price_change_6h": 0.37,
+        "price_change_24h": 2.04,
+        "pair_created_at": 1734927223000
+      },
+      {
+        "pair_address": "6pwszgWm5fJL7DgQ5EE6N6ZqVZkggfzSfBNNmPUDutDa",
+        "dex": "raydium",
+        "chain": "solana",
+        "price_usd": "0.0001317",
+        "price_native": "0.0001317",
+        "market_cap": 131787,
+        "fdv": 131787,
+        "liquidity_usd": 46.02,
+        "volume_24h": 0.13,
+        "volume_6h": 0.04,
+        "volume_1h": 0,
+        "txns_24h_buys": 2,
+        "txns_24h_sells": 0,
+        "txns_1h_buys": 0,
+        "txns_1h_sells": 0,
+        "price_change_5m": null,
+        "price_change_1h": null,
+        "price_change_6h": 0.8,
+        "price_change_24h": 0.8,
+        "pair_created_at": 1735059945000
+      }
+    ],
+    "primary": {
+      "dex": "raydium",
+      "price_usd": "0.0001344",
+      "market_cap": 134488,
+      "liquidity_usd": 51908.75,
+      "volume_24h": 16.45,
+      "pair_created_at": 1734927223000,
+      "pair_age_days": 442.3047222127186
+    }
+  },
+  "holder_count": null,
+  "birdeye": null,
+  "collected_at": "2026-03-10T11:32:31.340165+00:00"
+}

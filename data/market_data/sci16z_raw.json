@@ -1,0 +1,65 @@
+{
+  "agent": {
+    "id": 11,
+    "name": "SCI16Z",
+    "slug": "sci16z",
+    "generation": 4,
+    "token_address": "EY48xkBdmQtHvD8S4M1zFufoqBisPb3xdRtkdKkXTK5N",
+    "wallet_address": "GtxGx8KNSTUHbyLZTPdidAu4QpXU1R5yx3MN7sVhoZJv",
+    "token_type": "AIPOOL",
+    "twitter": "sci16z",
+    "parent_id": 5,
+    "status": "stopped",
+    "market_cap_reached": true,
+    "created_at": "2025-01-08T01:00:49.354Z",
+    "capabilities": [
+      "inherited",
+      "patterned",
+      "recursive"
+    ],
+    "health_points": 0,
+    "balance": "30.73",
+    "api_market_cap": "729.69"
+  },
+  "dexscreener": {
+    "token_address": "EY48xkBdmQtHvD8S4M1zFufoqBisPb3xdRtkdKkXTK5N",
+    "agent_name": "SCI16Z",
+    "num_pairs": 1,
+    "pairs_data": [
+      {
+        "pair_address": "5u3Ui1qCgBiiSNQALGvFnLkQfBvKkWJKF7bStebvYwU9",
+        "dex": "raydium",
+        "chain": "solana",
+        "price_usd": "0.0000008489",
+        "price_native": "0.000000009971",
+        "market_cap": 849,
+        "fdv": 849,
+        "liquidity_usd": 831.65,
+        "volume_24h": 5.13,
+        "volume_6h": 0,
+        "volume_1h": 0,
+        "txns_24h_buys": 1,
+        "txns_24h_sells": 1,
+        "txns_1h_buys": 0,
+        "txns_1h_sells": 0,
+        "price_change_5m": null,
+        "price_change_1h": null,
+        "price_change_6h": null,
+        "price_change_24h": -0.42,
+        "pair_created_at": 1736748021000
+      }
+    ],
+    "primary": {
+      "dex": "raydium",
+      "price_usd": "0.0000008489",
+      "market_cap": 849,
+      "liquidity_usd": 831.65,
+      "volume_24h": 5.13,
+      "pair_created_at": 1736748021000,
+      "pair_age_days": 421.23083036604305
+    }
+  },
+  "holder_count": null,
+  "birdeye": null,
+  "collected_at": "2026-03-10T11:32:44.879292+00:00"
+}

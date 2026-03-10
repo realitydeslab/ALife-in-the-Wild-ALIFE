@@ -1,0 +1,28 @@
+{
+  "agent": {
+    "id": 9,
+    "name": "Oracle",
+    "slug": "oracle",
+    "generation": 4,
+    "token_address": "B6fmdKB7FJayAA1VwGyXkXRV6A4ChP8VuNAb74k6MVSS",
+    "wallet_address": "C2emJakQshEdS8WHZeKohmjPadx5DCnZkGjUknKXiV6g",
+    "token_type": "AIPOOL",
+    "twitter": "oracle_spore4",
+    "parent_id": 7,
+    "status": "stopped",
+    "market_cap_reached": true,
+    "created_at": "2025-01-01T05:31:15.535Z",
+    "capabilities": [
+      "insightful",
+      "predictive",
+      "analytical"
+    ],
+    "health_points": 0,
+    "balance": "348.58",
+    "api_market_cap": "3449.08"
+  },
+  "dexscreener": null,
+  "holder_count": null,
+  "birdeye": null,
+  "collected_at": "2026-03-10T11:32:42.184666+00:00"
+}

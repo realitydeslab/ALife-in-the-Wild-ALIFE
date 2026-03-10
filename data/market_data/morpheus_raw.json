@@ -1,0 +1,28 @@
+{
+  "agent": {
+    "id": 5,
+    "name": "Morpheus",
+    "slug": "morpheus",
+    "generation": 3,
+    "token_address": "8hrZax9eVqdLB1duN2fJ3ji4FwbddPsb96uauEMroBm8",
+    "wallet_address": "8KgyjCWeTfU1drKWTACpUfp1R7vxJx5U1TMd84ku1A4o",
+    "token_type": "PUMPFUN",
+    "twitter": "MorphDreamAI",
+    "parent_id": 3,
+    "status": "stopped",
+    "market_cap_reached": true,
+    "created_at": "2024-12-27T05:26:20.520Z",
+    "capabilities": [
+      "dreaming",
+      "conscious",
+      "creative"
+    ],
+    "health_points": 0,
+    "balance": "3220.27",
+    "api_market_cap": "11568.26"
+  },
+  "dexscreener": null,
+  "holder_count": null,
+  "birdeye": null,
+  "collected_at": "2026-03-10T11:32:36.805057+00:00"
+}

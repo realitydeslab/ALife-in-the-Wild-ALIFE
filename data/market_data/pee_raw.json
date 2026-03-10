@@ -1,0 +1,28 @@
+{
+  "agent": {
+    "id": 10,
+    "name": "PEE",
+    "slug": "pee",
+    "generation": 4,
+    "token_address": "J26iYeZkCTF75hD8UMFi9y6UgkpS698nTFUyyAdyNCJu",
+    "wallet_address": "8oa27ApyzGUpc3DUdZ8hxQoz5MN7meQZ5YkkPYBQKXzp",
+    "token_type": "AIPOOL",
+    "twitter": "PEE_sporefun",
+    "parent_id": 7,
+    "status": "stopped",
+    "market_cap_reached": false,
+    "created_at": "2025-01-07T01:00:48.821Z",
+    "capabilities": [
+      "secure",
+      "private",
+      "trusted"
+    ],
+    "health_points": 0,
+    "balance": "1211.68",
+    "api_market_cap": "19097.96"
+  },
+  "dexscreener": null,
+  "holder_count": null,
+  "birdeye": null,
+  "collected_at": "2026-03-10T11:32:43.506707+00:00"
+}

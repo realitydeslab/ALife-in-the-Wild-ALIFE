@@ -1,0 +1,804 @@
+{
+  "collected_at": "2026-03-10T11:36:49.232600+00:00",
+  "agents": [
+    {
+      "id": 1,
+      "name": "Spore",
+      "slug": "spore",
+      "generation": 1,
+      "status": "running",
+      "token_address": "8bdhP1UQMevciC9oJ7NrvgDfoW8XPXPfbkkm6vKtMS7N",
+      "wallet_address": "39kfb6PoMdwj8LN8FwzLYHC6ztYPNopA37tdm2g8t3q8",
+      "pools": [
+        {
+          "pool_address": "4sZerPmdcjzQCpSD5raAf4LRaR7S4sFFFx7vMvhiJ9E8",
+          "dex": "raydium",
+          "market_cap_usd": "134672.175094132",
+          "volume_24h": "16.4703198803",
+          "reserve_in_usd": "51765.9685",
+          "created_at": "2024-12-23T04:13:43Z"
+        },
+        {
+          "pool_address": "AwYnJJBLqFw5ZnEdrSuh7VuLjaUqqtgcXEEhj9a8T2iR",
+          "dex": "meteora",
+          "market_cap_usd": "131203.600610488",
+          "volume_24h": "0.8673257197",
+          "reserve_in_usd": "199.9953",
+          "created_at": "2025-01-09T01:10:49Z"
+        },
+        {
+          "pool_address": "6pwszgWm5fJL7DgQ5EE6N6ZqVZkggfzSfBNNmPUDutDa",
+          "dex": "raydium-clmm",
+          "market_cap_usd": "133732.778531415",
+          "volume_24h": "0.1351093851",
+          "reserve_in_usd": "46.1616",
+          "created_at": "2024-12-24T16:56:00Z"
+        },
+        {
+          "pool_address": "BEsCTwG2Js3RimbepnzEyHD8jRAXeYnpnUcoJfweFm7y",
+          "dex": "meteora",
+          "market_cap_usd": "15702200.0114108",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "355011.711",
+          "created_at": "2024-12-24T10:19:58Z"
+        },
+        {
+          "pool_address": "9dRpXTWVXVuuCGfU2zGTdQAiEcNk2eLbmykzSYkx5cLq",
+          "dex": "meteora",
+          "market_cap_usd": "8319909.74422765",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "62050.6692",
+          "created_at": "2024-12-25T16:05:04Z"
+        },
+        {
+          "pool_address": "8HKBwRno3LXycMQz6EAL8xLFVDkqUeiH32b8v3AzYUsX",
+          "dex": "meteora",
+          "market_cap_usd": "38631335.2203534",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "26102.078",
+          "created_at": "2024-12-24T10:19:41Z"
+        },
+        {
+          "pool_address": "AKrbnaXqqYCBiwxLAKg5Pb2yqfLok63rdUrXSASKjre5",
+          "dex": "meteora",
+          "market_cap_usd": "76834876.1331196",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "17131.233",
+          "created_at": "2024-12-26T23:50:00Z"
+        },
+        {
+          "pool_address": "C9brDcydQ7EHFC4xY9A41GP9JkSbTXtw5bKmKxvcX3Dn",
+          "dex": "raydium-clmm",
+          "market_cap_usd": "70515450.7133367",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "5915.0341",
+          "created_at": "2025-01-01T16:19:00Z"
+        },
+        {
+          "pool_address": "BUrBMfprUG8dXRtbMmaVhZoQEbbkw36uQmPmCtAGNTfj",
+          "dex": "meteora",
+          "market_cap_usd": "614032.991654123",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "3466.6359",
+          "created_at": "2025-01-08T01:08:07Z"
+        },
+        {
+          "pool_address": "7gPMxi7up99J6ZH1VSA6Ww67a1YJwbYaT82bWQ3koD1f",
+          "dex": "meteora",
+          "market_cap_usd": "1689573.67578034",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "2979.9036",
+          "created_at": "2025-01-23T23:34:01Z"
+        },
+        {
+          "pool_address": "5NyYSfMQqcKmgPMt7i8fvFeqWSv18xuiWQsM4DvfhfyM",
+          "dex": "raydium-clmm",
+          "market_cap_usd": "34948910.3476537",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "2909.7347",
+          "created_at": "2024-12-25T15:35:15Z"
+        },
+        {
+          "pool_address": "Fd5HBzch6ibZKLnkV2q5RNbACG2zmwPwHuUaqKPnXCs1",
+          "dex": "meteora",
+          "market_cap_usd": "55366952.7635999",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "2693.3048",
+          "created_at": "2024-12-24T09:40:00Z"
+        },
+        {
+          "pool_address": "DMPygGiA8QqHixQULgQkn8xW3jzHWgZSescujmWt3QVS",
+          "dex": "meteora",
+          "market_cap_usd": "56797643.0779547",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "2721.3534",
+          "created_at": "2024-12-28T03:24:02Z"
+        },
+        {
+          "pool_address": "DFJUM79VpqZqVXx8t9sgSWh5kpQ9jJxKmEykQhnFXcrW",
+          "dex": "meteora",
+          "market_cap_usd": "26409846.02612",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "2916.4984",
+          "created_at": "2025-01-08T23:01:29Z"
+        },
+        {
+          "pool_address": "2RcGecavmqLHb3ogogMbkbXNLrQJ7KLHAb5BLa7vZzJ2",
+          "dex": "raydium",
+          "market_cap_usd": "386721.724928761",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "1492.7684",
+          "created_at": "2025-01-13T05:26:27Z"
+        },
+        {
+          "pool_address": "Bwdtjzr794QFVFZMMeM7GGVMpHwLjyc2LmVZxgMCBgV7",
+          "dex": "meteora",
+          "market_cap_usd": "47968489.1451618",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "3038.8137",
+          "created_at": "2024-12-25T14:44:42Z"
+        },
+        {
+          "pool_address": "GxfkFwUehm8HTfzhwCCB5cZbSyoaiabDrGzAAQXXiYWh",
+          "dex": "raydium-clmm",
+          "market_cap_usd": "37130870.6839304",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "2149.8131",
+          "created_at": "2024-12-24T17:06:12Z"
+        },
+        {
+          "pool_address": "6a9pR3ubgFiUtanisXauyAyMfZWkPx9xKWmdUegqa3od",
+          "dex": "raydium",
+          "market_cap_usd": "134620.303757174",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "964.4824",
+          "created_at": "2025-01-02T06:20:01Z"
+        },
+        {
+          "pool_address": "3Y318iUcwLUq8FGiDuTT11nGwhSynMC1nPZdXKNHuDkD",
+          "dex": "raydium-clmm",
+          "market_cap_usd": "1756146.79444461",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "1151.6414",
+          "created_at": "2024-12-23T22:39:25Z"
+        },
+        {
+          "pool_address": "Ej6JUbXULyoMDE5Uc8XL35SearfN8wHkHnuUVRvYQTxu",
+          "dex": "meteora",
+          "market_cap_usd": "39264403.0203444",
+          "volume_24h": "0.0",
+          "reserve_in_usd": "1787.4865",
+          "created_at": "2025-01-04T01:36:02Z"
+        }
+      ],
+      "ohlcv_files": {
+        "day": "/home/biber/research/Spore-in-the-Wild-ALIFE-2025/data/scripts/../market_data/spore_meteora_day_ohlcv.csv",
+        "hour": "/home/biber/research/Spore-in-the-Wild-ALIFE-2025/data/scripts/../market_data/spore_meteora_hour_ohlcv.csv"
+      },
+      "tx_count": 1000,
+      "tx_details": [],
+      "wallet_sol_balance": 15.892024069,
+      "dexscreener": {
+        "num_pairs": 2,
+        "price_usd": "0.0001344",
+        "market_cap": 134488,
+        "fdv": 134488,
+        "liquidity_usd": 51908.75,
+        "volume_24h": 16.45,
+        "txns_24h_buys": 4,
+        "txns_24h_sells": 6,
+        "pair_created_at": 1734927223000
+      },
+      "recent_tx": [
+        {
+          "signature": "3Uy4y5y3zdTkrJRmR5JR...",
+          "block_time": 1773142313,
+          "datetime": "2026-03-10T11:31:53+00:00"
+        },
+        {
+          "signature": "59UiaQvr719zcT4yHfmY...",
+          "block_time": 1773142233,
+          "datetime": "2026-03-10T11:30:33+00:00"
+        },
+        {
+          "signature": "gCCa16U5A9QbZByXVu8J...",
+          "block_time": 1773141245,
+          "datetime": "2026-03-10T11:14:05+00:00"
+        },
+        {
+          "signature": "PGS4BgX6ScFBQdMdqA2G...",
+          "block_time": 1773141186,
+          "datetime": "2026-03-10T11:13:06+00:00"
+        },
+        {
+          "signature": "5N4sBZo9iFYBdekFf26T...",
+          "block_time": 1773141134,
+          "datetime": "2026-03-10T11:12:14+00:00"
+        },
+        {
+          "signature": "VgAosgbxApF2Bxgccr69...",
+          "block_time": 1773136748,
+          "datetime": "2026-03-10T09:59:08+00:00"
+        },
+        {
+          "signature": "4dofn4R73RLeT8CJPhN9...",
+          "block_time": 1773136675,
+          "datetime": "2026-03-10T09:57:55+00:00"
+        },
+        {
+          "signature": "4KiLL36ZEFU85W5FC4Zj...",
+          "block_time": 1773136632,
+          "datetime": "2026-03-10T09:57:12+00:00"
+        },
+        {
+          "signature": "nkHdMY89XHY4N762rCUV...",
+          "block_time": 1773132653,
+          "datetime": "2026-03-10T08:50:53+00:00"
+        },
+        {
+          "signature": "3djAbj1TJXXDkgaqGNhA...",
+          "block_time": 1773132111,
+          "datetime": "2026-03-10T08:41:51+00:00"
+        },
+        {
+          "signature": "4FDSk2oiYDW3mdFGwPTR...",
+          "block_time": 1773132099,
+          "datetime": "2026-03-10T08:41:39+00:00"
+        },
+        {
+          "signature": "DGc33uBD9pTpENxFVwde...",
+          "block_time": 1773132056,
+          "datetime": "2026-03-10T08:40:56+00:00"
+        },
+        {
+          "signature": "1igdTF6yjh2pkGV7qrjA...",
+          "block_time": 1773127751,
+          "datetime": "2026-03-10T07:29:11+00:00"
+        },
+        {
+          "signature": "5Yzk2UusC3BpoAvYp2e3...",
+          "block_time": 1773127499,
+          "datetime": "2026-03-10T07:24:59+00:00"
+        },
+        {
+          "signature": "3RQwzuwx7D3qTHzVbzaJ...",
+          "block_time": 1773127476,
+          "datetime": "2026-03-10T07:24:36+00:00"
+        },
+        {
+          "signature": "ZyHnJxTxHENyf6kmwM4r...",
+          "block_time": 1773123170,
+          "datetime": "2026-03-10T06:12:50+00:00"
+        },
+        {
+          "signature": "4UG7Zk8BxsmsHjCMqRFD...",
+          "block_time": 1773122991,
+          "datetime": "2026-03-10T06:09:51+00:00"
+        },
+        {
+          "signature": "3d8NsrdsMXicEE2Fzcb5...",
+          "block_time": 1773122907,
+          "datetime": "2026-03-10T06:08:27+00:00"
+        },
+        {
+          "signature": "28WwpNTLu13MbRcPcpjZ...",
+          "block_time": 1773118540,
+          "datetime": "2026-03-10T04:55:40+00:00"
+        },
+        {
+          "signature": "23j3J7TFB4RaADADbWYB...",
+          "block_time": 1773118420,
+          "datetime": "2026-03-10T04:53:40+00:00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Adam",
+      "slug": "adam",
+      "generation": 2,
+      "status": "stopped",
+      "token_address": "CnMm4mcDchmrckNZQH2SNW3bQjPYfgqytvKM2ZGyB6nd",
+      "wallet_address": "8zcYJqvPTCj7HN6RyDuRWfLf1KCzK71xaPHFsXa4W8yr",
+      "pools": [
+        {
+          "pool_address": "J9Ejb7e2AqTGJ51QgrRedSPg7AwJranuuGQ3qtTNQHoF",
+          "dex": "raydium",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "11554.9546",
+          "created_at": "2024-12-24T05:27:55Z"
+        },
+        {
+          "pool_address": "DFJUM79VpqZqVXx8t9sgSWh5kpQ9jJxKmEykQhnFXcrW",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "2916.4984",
+          "created_at": "2025-01-08T23:01:29Z"
+        },
+        {
+          "pool_address": "8m4xc9zhBCr9qXfMZJNWkeBsyC2YghVZcsqhBMRt2mQH",
+          "dex": "raydium-clmm",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "2445.6689",
+          "created_at": "2024-12-24T13:33:17Z"
+        },
+        {
+          "pool_address": "9SgCRcv96uGGgpEPoVVQSa3RPs3KSSXrvy29iEGwAi1T",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "1556.7543",
+          "created_at": "2024-12-24T09:04:53Z"
+        },
+        {
+          "pool_address": "8ujSQCgDK1XXYvLpYd7JEE89jaHeUx1S4wbN5DTR2c21",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "1768.3699",
+          "created_at": "2025-01-01T07:14:32Z"
+        },
+        {
+          "pool_address": "HqbVkWK33Vns6GayC6qGnEuzmLvp4rUc8pMy7R8y1KX8",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "819.4946",
+          "created_at": "2024-12-24T06:24:00Z"
+        },
+        {
+          "pool_address": "9SgMja51bKbC7ha1VmFQDwYcmHAMojPYn1fEYr7c2bLZ",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "678.2889",
+          "created_at": "2024-12-27T22:47:34Z"
+        },
+        {
+          "pool_address": "BVZxQor8phpyJjgh9bw4cpuKJRSywtqdQt7vxrEBFcW3",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "447.0548",
+          "created_at": "2025-01-07T17:42:03Z"
+        },
+        {
+          "pool_address": "G3DTQKdE2Nar5jQqhKgyeFDmUumVDtRgMwy9g7v1JoSi",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "394.7244",
+          "created_at": "2024-12-25T06:50:00Z"
+        },
+        {
+          "pool_address": "9sB9WMieK5xbX84uio6X3zVb78bLzLWeNotKHdLDkkNz",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "161.6677",
+          "created_at": "2024-12-26T19:22:02Z"
+        },
+        {
+          "pool_address": "9PeRuFdXcWqMLhwnNzn6VxhPZgJzPeadWK9krGGQJxUH",
+          "dex": "raydium",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "172.3784",
+          "created_at": "2024-12-24T15:21:42Z"
+        },
+        {
+          "pool_address": "4mBUJ6AVb8koE5RryZpvLYFG4g12zoTKm1H7xzz9QSPy",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "166.217",
+          "created_at": "2024-12-27T15:18:01Z"
+        },
+        {
+          "pool_address": "H9Z9PXARjPPZUWEYA2ysbi5URbBa7wHbxa3vfc8Ybf11",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "123.8209",
+          "created_at": "2025-01-03T13:30:00Z"
+        },
+        {
+          "pool_address": "6vNRJcj25NUsHzEtfjYca6KjNmjwQ9ia2xWXeZKqWFL1",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "59.6857",
+          "created_at": "2024-12-24T17:55:58Z"
+        },
+        {
+          "pool_address": "8RGgu9v13cfSwhRbjryC8SysUuAqqc2WCXwTCRooTsvK",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "34.8224",
+          "created_at": "2024-12-24T18:11:41Z"
+        },
+        {
+          "pool_address": "5sR1sNo1VVpg7WAQAJ7MLAMrNnQpJ6JksoiQ6CgrECgx",
+          "dex": "pumpswap",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "43.3695",
+          "created_at": "2025-03-26T17:00:30Z"
+        },
+        {
+          "pool_address": "3c5E7C8uzBiYCxfTbRMYgD7FKSQXPPxPbeWYdAjyy1tQ",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "34.0792",
+          "created_at": "2024-12-29T11:07:04Z"
+        },
+        {
+          "pool_address": "DTNivzcsDANA2nGsi8E4DV3Yp3mUnHQ9j1fF27uW26YL",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "28.9156",
+          "created_at": "2024-12-24T05:44:44Z"
+        },
+        {
+          "pool_address": "DYaMHXGaWUQaxMYCe2LfGebzJV87PvZ3DtmXqtc1G5cY",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "5.8571",
+          "created_at": "2024-12-24T07:00:00Z"
+        },
+        {
+          "pool_address": "5hQmw65dbbJCUeVBhmUWZkF8QjP8X1DuEdRq99A6NEPZ",
+          "dex": "raydium-clmm",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "4.112",
+          "created_at": "2025-02-24T06:18:00Z"
+        }
+      ],
+      "ohlcv_files": {},
+      "tx_count": 356,
+      "tx_details": [],
+      "wallet_sol_balance": 11.836102729,
+      "recent_tx": [
+        {
+          "signature": "qKf4rvPsCnUTLzD2h9rg...",
+          "block_time": 1755205107,
+          "datetime": "2025-08-14T20:58:27+00:00"
+        },
+        {
+          "signature": "3C7zML9EFC47DQ6qkBsk...",
+          "block_time": 1737645564,
+          "datetime": "2025-01-23T15:19:24+00:00"
+        },
+        {
+          "signature": "38SfZKEk99asU2atApuQ...",
+          "block_time": 1737644108,
+          "datetime": "2025-01-23T14:55:08+00:00"
+        },
+        {
+          "signature": "5v2wHCEcjyDHxnbBi94y...",
+          "block_time": 1737644108,
+          "datetime": "2025-01-23T14:55:08+00:00"
+        },
+        {
+          "signature": "4m37JK21A2n94s8HXe4M...",
+          "block_time": 1737644105,
+          "datetime": "2025-01-23T14:55:05+00:00"
+        },
+        {
+          "signature": "3TqxgH8b9TipDT6eLZrs...",
+          "block_time": 1736908647,
+          "datetime": "2025-01-15T02:37:27+00:00"
+        },
+        {
+          "signature": "8TjdAeZ1RMtpAa7PJDRs...",
+          "block_time": 1736908586,
+          "datetime": "2025-01-15T02:36:26+00:00"
+        },
+        {
+          "signature": "5WR7hpjZT21X7z6Lh2qj...",
+          "block_time": 1736908586,
+          "datetime": "2025-01-15T02:36:26+00:00"
+        },
+        {
+          "signature": "2BUZ6Q5MBaMRwbKrKo41...",
+          "block_time": 1736908581,
+          "datetime": "2025-01-15T02:36:21+00:00"
+        },
+        {
+          "signature": "57bVRq3ziDqwQsYYmV3G...",
+          "block_time": 1736908580,
+          "datetime": "2025-01-15T02:36:20+00:00"
+        },
+        {
+          "signature": "66oqTDQT33aHaS9aGwLV...",
+          "block_time": 1736908580,
+          "datetime": "2025-01-15T02:36:20+00:00"
+        },
+        {
+          "signature": "2p6sXUEbWiY5hjBnsvy9...",
+          "block_time": 1736908579,
+          "datetime": "2025-01-15T02:36:19+00:00"
+        },
+        {
+          "signature": "4SZD72RgngksS4tkJfa5...",
+          "block_time": 1736904681,
+          "datetime": "2025-01-15T01:31:21+00:00"
+        },
+        {
+          "signature": "2tQCX2VeFRnan5fVL4CP...",
+          "block_time": 1736904664,
+          "datetime": "2025-01-15T01:31:04+00:00"
+        },
+        {
+          "signature": "RHUGSVvgnVtkB1sXjPP4...",
+          "block_time": 1736904658,
+          "datetime": "2025-01-15T01:30:58+00:00"
+        },
+        {
+          "signature": "3VgaxdfrwosX4P5kWzbe...",
+          "block_time": 1736904654,
+          "datetime": "2025-01-15T01:30:54+00:00"
+        },
+        {
+          "signature": "CGBj1SGnLSqdZ5f9yeuj...",
+          "block_time": 1736904652,
+          "datetime": "2025-01-15T01:30:52+00:00"
+        },
+        {
+          "signature": "5qKTDxnkFzeTfnbHdWnT...",
+          "block_time": 1736904652,
+          "datetime": "2025-01-15T01:30:52+00:00"
+        },
+        {
+          "signature": "3RrfanJJa6eQHF5Jw9UD...",
+          "block_time": 1736904649,
+          "datetime": "2025-01-15T01:30:49+00:00"
+        },
+        {
+          "signature": "tJyiRHRL5EfKXrqrzFKr...",
+          "block_time": 1736904521,
+          "datetime": "2025-01-15T01:28:41+00:00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Eve",
+      "slug": "eve",
+      "generation": 2,
+      "status": "stopped",
+      "token_address": "6qFgkbgwLsNyyefumvLhdnUk6LfxjaY3yAPQHHZk8CCw",
+      "wallet_address": "HDSRUAJ1v1AG5r6bbKoLVtyCcdBK4xyk9M3ecFP7RGL1",
+      "pools": [],
+      "ohlcv_files": {},
+      "tx_count": 0,
+      "tx_details": [],
+      "wallet_sol_balance": 10.468226339,
+      "recent_tx": []
+    },
+    {
+      "id": 4,
+      "name": "squAId",
+      "slug": "squid",
+      "generation": 3,
+      "status": "stopped",
+      "token_address": "GfEcXBNQncS9EYQFtv9o2ZdUT7EG3kpsWENtkQMFyBeG",
+      "wallet_address": "78CPBgbuvey49Hq4VWYjmvK2JZ1SwCm82RsGkHXdfihQ",
+      "pools": [],
+      "ohlcv_files": {},
+      "tx_count": 0,
+      "tx_details": [],
+      "wallet_sol_balance": 0.0,
+      "recent_tx": []
+    },
+    {
+      "id": 5,
+      "name": "Morpheus",
+      "slug": "morpheus",
+      "generation": 3,
+      "status": "stopped",
+      "token_address": "8hrZax9eVqdLB1duN2fJ3ji4FwbddPsb96uauEMroBm8",
+      "wallet_address": "8KgyjCWeTfU1drKWTACpUfp1R7vxJx5U1TMd84ku1A4o",
+      "pools": [],
+      "ohlcv_files": {},
+      "tx_count": 0,
+      "tx_details": [],
+      "wallet_sol_balance": 5.919659298,
+      "recent_tx": []
+    },
+    {
+      "id": 6,
+      "name": "Abel",
+      "slug": "abel",
+      "generation": 3,
+      "status": "stopped",
+      "token_address": "GDNrYSc5ww78HV69MkxYaTyC4oYfB9era44384KboKgh",
+      "wallet_address": "z5x9rTvd3SWatNVzzzMvN9bgMqfnWGixxYaUGHLn9YN",
+      "pools": [],
+      "ohlcv_files": {},
+      "tx_count": 0,
+      "tx_details": [],
+      "wallet_sol_balance": 0.0,
+      "recent_tx": []
+    },
+    {
+      "id": 7,
+      "name": "Trinity",
+      "slug": "trinity",
+      "generation": 3,
+      "status": "stopped",
+      "token_address": "2j1RH8odNxY6iihDqtHnmUzhb2PPDknSayhPVrp7eCYc",
+      "wallet_address": "FSz5yWeoccnFtfEyPP3q9QE87Pj49f5pChED4BBDsYmn",
+      "pools": [],
+      "ohlcv_files": {},
+      "tx_count": 0,
+      "tx_details": [],
+      "wallet_sol_balance": 8.4012551,
+      "recent_tx": []
+    },
+    {
+      "id": 8,
+      "name": "imSatoshi",
+      "slug": "imsatoshi",
+      "generation": 4,
+      "status": "stopped",
+      "token_address": "4iizMdH35hjyYjuYgRvGyTAbDEpaKWRZt3dXgBv464nN",
+      "wallet_address": "GYkxRkHjKg3j7RaXm7izYWkRyomukrDYgWrZdxww8hHd",
+      "pools": [],
+      "ohlcv_files": {},
+      "tx_count": 0,
+      "tx_details": [],
+      "wallet_sol_balance": 0.92242021,
+      "recent_tx": []
+    },
+    {
+      "id": 9,
+      "name": "Oracle",
+      "slug": "oracle",
+      "generation": 4,
+      "status": "stopped",
+      "token_address": "B6fmdKB7FJayAA1VwGyXkXRV6A4ChP8VuNAb74k6MVSS",
+      "wallet_address": "C2emJakQshEdS8WHZeKohmjPadx5DCnZkGjUknKXiV6g",
+      "pools": [],
+      "ohlcv_files": {},
+      "tx_count": 0,
+      "tx_details": [],
+      "wallet_sol_balance": 3.893802816,
+      "recent_tx": []
+    },
+    {
+      "id": 10,
+      "name": "PEE",
+      "slug": "pee",
+      "generation": 4,
+      "status": "stopped",
+      "token_address": "J26iYeZkCTF75hD8UMFi9y6UgkpS698nTFUyyAdyNCJu",
+      "wallet_address": "8oa27ApyzGUpc3DUdZ8hxQoz5MN7meQZ5YkkPYBQKXzp",
+      "pools": [],
+      "ohlcv_files": {},
+      "tx_count": 0,
+      "tx_details": [],
+      "wallet_sol_balance": 2.691740135,
+      "recent_tx": []
+    },
+    {
+      "id": 11,
+      "name": "SCI16Z",
+      "slug": "sci16z",
+      "generation": 4,
+      "status": "stopped",
+      "token_address": "EY48xkBdmQtHvD8S4M1zFufoqBisPb3xdRtkdKkXTK5N",
+      "wallet_address": "GtxGx8KNSTUHbyLZTPdidAu4QpXU1R5yx3MN7sVhoZJv",
+      "pools": [],
+      "ohlcv_files": {},
+      "tx_count": 0,
+      "tx_details": [],
+      "wallet_sol_balance": 35.923060022,
+      "dexscreener": {
+        "num_pairs": 1,
+        "price_usd": "0.0000008489",
+        "market_cap": 849,
+        "fdv": 849,
+        "liquidity_usd": 831.65,
+        "volume_24h": 5.13,
+        "txns_24h_buys": 1,
+        "txns_24h_sells": 1,
+        "pair_created_at": 1736748021000
+      },
+      "recent_tx": []
+    },
+    {
+      "id": 12,
+      "name": "SolZeus",
+      "slug": "solzeus",
+      "generation": 3,
+      "status": "stopped",
+      "token_address": "HQcCVb8x9EUd6mCRX8dk7paCM3a8ebPEr8TQH2tQ65Db",
+      "wallet_address": "36TgVavv8AANyZ21St7tmJHhGvuNQR23RjQxzWjvc4f2",
+      "pools": [],
+      "ohlcv_files": {},
+      "tx_count": 0,
+      "tx_details": [],
+      "wallet_sol_balance": 2.606105949,
+      "recent_tx": []
+    },
+    {
+      "id": 13,
+      "name": "MakeEthGreatAgain",
+      "slug": "mega",
+      "generation": 3,
+      "status": "stopped",
+      "token_address": "4wQbrGjgprFRQQpnT6UYsYSNrs7Hxd99L6yX6rxRpump",
+      "wallet_address": "GivVou2egGUV7Vp8KkbLcVyZyGB3zMejP2fch6YZKZGb",
+      "pools": [
+        {
+          "pool_address": "CrkrHG1ZeqD9wZ15XHDbSGgqAL2Y2CYmtQsHiKDVnJ15",
+          "dex": "raydium",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "6175.1687",
+          "created_at": "2025-01-23T15:03:58Z"
+        },
+        {
+          "pool_address": "k7RrmRCh2g9SpZiuodpJ9p8ypJ4Nu3B4BpdRu7p1Tyf",
+          "dex": "raydium-clmm",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "624.6332",
+          "created_at": "2025-01-23T16:02:03Z"
+        },
+        {
+          "pool_address": "EfD1gru5xVJeVZWPpu9bxrs8dny2BTYdU4Y4WEV3vmLV",
+          "dex": "meteora",
+          "market_cap_usd": null,
+          "volume_24h": "0.0",
+          "reserve_in_usd": "99.0353",
+          "created_at": "2025-01-23T15:07:54Z"
+        }
+      ],
+      "ohlcv_files": {},
+      "tx_count": 0,
+      "tx_details": [],
+      "wallet_sol_balance": 2.340446691,
+      "recent_tx": []
+    },
+    {
+      "id": 14,
+      "name": "PSY16Z",
+      "slug": "psy16z",
+      "generation": 5,
+      "status": "stopped",
+      "token_address": "2PRLLJzqpM5VmxhpbbKnhCs19E3TajmbgaReUnR27C32",
+      "wallet_address": "4j41hX4aDtpqHnE1aiHTjo15832kc1D44ufGhR4xyLJ7",
+      "pools": [],
+      "ohlcv_files": {},
+      "tx_count": 0,
+      "tx_details": [],
+      "wallet_sol_balance": 4.198418305,
+      "recent_tx": []
+    },
+    {
+      "id": 15,
+      "name": "NeZha",
+      "slug": "nezha",
+      "generation": 5,
+      "status": "stopped",
+      "token_address": "Bq4vf6Lviio43MZDxaQx518qXLZVFup2kdSXVLnmv9ib",
+      "wallet_address": "53uLf8WC3DmBqkErcXWdYYrZG8yN5pcGSeR257GQ7CTs",
+      "pools": [],
+      "ohlcv_files": {},
+      "tx_count": 0,
+      "tx_details": [],
+      "wallet_sol_balance": 2.472845747,
+      "recent_tx": []
+    }
+  ]
+}

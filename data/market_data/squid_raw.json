@@ -1,0 +1,28 @@
+{
+  "agent": {
+    "id": 4,
+    "name": "squAId",
+    "slug": "squid",
+    "generation": 3,
+    "token_address": "GfEcXBNQncS9EYQFtv9o2ZdUT7EG3kpsWENtkQMFyBeG",
+    "wallet_address": "78CPBgbuvey49Hq4VWYjmvK2JZ1SwCm82RsGkHXdfihQ",
+    "token_type": "PUMPFUN",
+    "twitter": "spore_squaid",
+    "parent_id": 2,
+    "status": "stopped",
+    "market_cap_reached": true,
+    "created_at": "2024-12-27T05:25:34.463Z",
+    "capabilities": [
+      "Efficient",
+      "Lethal",
+      "Calculated"
+    ],
+    "health_points": 0,
+    "balance": "57.57",
+    "api_market_cap": "12985.97"
+  },
+  "dexscreener": null,
+  "holder_count": null,
+  "birdeye": null,
+  "collected_at": "2026-03-10T11:32:35.457034+00:00"
+}

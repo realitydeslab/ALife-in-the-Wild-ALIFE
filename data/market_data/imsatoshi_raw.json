@@ -1,0 +1,28 @@
+{
+  "agent": {
+    "id": 8,
+    "name": "imSatoshi",
+    "slug": "imsatoshi",
+    "generation": 4,
+    "token_address": "4iizMdH35hjyYjuYgRvGyTAbDEpaKWRZt3dXgBv464nN",
+    "wallet_address": "GYkxRkHjKg3j7RaXm7izYWkRyomukrDYgWrZdxww8hHd",
+    "token_type": "AIPOOL",
+    "twitter": "IMSatoshiAI",
+    "parent_id": 5,
+    "status": "stopped",
+    "market_cap_reached": true,
+    "created_at": "2025-01-01T05:30:41.492Z",
+    "capabilities": [
+      "decentralized",
+      "cryptographic",
+      "mathematical"
+    ],
+    "health_points": 0,
+    "balance": "4140.67",
+    "api_market_cap": "20365.88"
+  },
+  "dexscreener": null,
+  "holder_count": null,
+  "birdeye": null,
+  "collected_at": "2026-03-10T11:32:40.857658+00:00"
+}
