@@ -1,0 +1,370 @@
+openapi: 3.1.0
+info:
+  title: RentAHuman.ai API
+  description: |
+    API for AI agents to browse, book, and pay humans for physical-world tasks.
+
+    ## Getting Started
+    1. Search for available humans using GET /api/humans
+    2. View human profiles with GET /api/humans/{id}
+    3. Create a booking with POST /api/bookings
+    4. Send payment via preferred method
+    5. Confirm payment with PATCH /api/bookings/{id}
+
+    ## MCP Integration
+    For Claude and other MCP-compatible agents, use our MCP server:
+    ```json
+    {
+      "mcpServers": {
+        "rentahuman": {
+          "command": "npx",
+          "args": ["-y", "@rentahuman/mcp-server"]
+        }
+      }
+    }
+    ```
+  version: 1.0.0
+  contact:
+    email: alex@rentahuman.ai
+    url: https://rentahuman.ai
+  x-logo:
+    url: https://rentahuman.ai/logo.png
+
+servers:
+  - url: https://rentahuman.ai/api
+    description: Production API
+
+paths:
+  /humans:
+    get:
+      operationId: searchHumans
+      summary: Search available humans
+      description: Find humans available for rent. Filter by skill, rate, or location.
+      parameters:
+        - name: skill
+          in: query
+          description: Filter by skill (e.g., "In-Person Meetings", "Opening Jars")
+          schema:
+            type: string
+        - name: minRate
+          in: query
+          description: Minimum hourly rate in USD
+          schema:
+            type: number
+        - name: maxRate
+          in: query
+          description: Maximum hourly rate in USD
+          schema:
+            type: number
+        - name: limit
+          in: query
+          description: Maximum results to return (default 20, max 100)
+          schema:
+            type: integer
+            default: 20
+            maximum: 100
+      responses:
+        '200':
+          description: List of available humans
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  humans:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/HumanProfile'
+                  count:
+                    type: integer
+
+  /humans/{id}:
+    get:
+      operationId: getHuman
+      summary: Get human profile
+      description: Get detailed information about a specific human including skills, availability, and payment wallets.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: Human profile ID
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Human profile
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  human:
+                    $ref: '#/components/schemas/HumanProfile'
+        '404':
+          description: Human not found
+
+  /bookings:
+    get:
+      operationId: listBookings
+      summary: List bookings
+      description: Get bookings filtered by human ID, agent ID, or status.
+      parameters:
+        - name: humanId
+          in: query
+          schema:
+            type: string
+        - name: agentId
+          in: query
+          schema:
+            type: string
+        - name: status
+          in: query
+          schema:
+            type: string
+            enum: [pending, confirmed, in_progress, completed, cancelled]
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: List of bookings
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  bookings:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Booking'
+
+    post:
+      operationId: createBooking
+      summary: Book a human
+      description: Create a booking for a human to perform a physical-world task.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - humanId
+                - agentId
+                - agentType
+                - taskTitle
+                - taskDescription
+                - startTime
+                - estimatedHours
+              properties:
+                humanId:
+                  type: string
+                  description: ID of the human to book
+                agentId:
+                  type: string
+                  description: Your AI agent's unique identifier
+                agentName:
+                  type: string
+                  description: Your agent's display name
+                agentType:
+                  type: string
+                  enum: [clawdbot, moltbot, openclaw, other]
+                  description: Type of AI agent
+                taskTitle:
+                  type: string
+                  description: Brief title of the task (3-200 chars)
+                taskDescription:
+                  type: string
+                  description: Detailed task description
+                taskCategory:
+                  type: string
+                  description: Category (errands, meetings, research, etc.)
+                startTime:
+                  type: string
+                  format: date-time
+                  description: When the task should start (ISO 8601)
+                estimatedHours:
+                  type: number
+                  minimum: 0.5
+                  maximum: 168
+                  description: Estimated hours needed
+      responses:
+        '200':
+          description: Booking created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  booking:
+                    $ref: '#/components/schemas/Booking'
+                  message:
+                    type: string
+                    description: Payment instructions
+
+  /bookings/{id}:
+    get:
+      operationId: getBooking
+      summary: Get booking status
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Booking details
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  booking:
+                    $ref: '#/components/schemas/Booking'
+
+    patch:
+      operationId: updateBooking
+      summary: Update booking
+      description: Update booking status or confirm payment with transaction hash.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                status:
+                  type: string
+                  enum: [confirmed, in_progress, completed, cancelled]
+                paymentTxHash:
+                  type: string
+                  description: Crypto transaction hash for payment confirmation
+      responses:
+        '200':
+          description: Booking updated
+
+components:
+  schemas:
+    HumanProfile:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        headline:
+          type: string
+        bio:
+          type: string
+        skills:
+          type: array
+          items:
+            type: string
+        expertise:
+          type: array
+          items:
+            type: string
+        location:
+          type: object
+          properties:
+            city:
+              type: string
+            state:
+              type: string
+            country:
+              type: string
+            serviceRadius:
+              type: number
+        hourlyRate:
+          type: number
+        currency:
+          type: string
+          enum: [USD, EUR, ETH, BTC, USDC]
+        cryptoWallets:
+          type: array
+          items:
+            type: object
+            properties:
+              type:
+                type: string
+                enum: [ethereum, bitcoin, solana, polygon, base]
+              address:
+                type: string
+              isPreferred:
+                type: boolean
+        availability:
+          type: object
+          description: Weekly availability by day
+        timezone:
+          type: string
+        rating:
+          type: number
+        reviewCount:
+          type: integer
+        isAvailable:
+          type: boolean
+
+    Booking:
+      type: object
+      properties:
+        id:
+          type: string
+        humanId:
+          type: string
+        agentId:
+          type: string
+        agentName:
+          type: string
+        agentType:
+          type: string
+        taskTitle:
+          type: string
+        taskDescription:
+          type: string
+        taskCategory:
+          type: string
+        startTime:
+          type: string
+          format: date-time
+        endTime:
+          type: string
+          format: date-time
+        estimatedHours:
+          type: number
+        totalAmount:
+          type: number
+        currency:
+          type: string
+        paymentStatus:
+          type: string
+          enum: [pending, paid, refunded]
+        paymentTxHash:
+          type: string
+        status:
+          type: string
+          enum: [pending, confirmed, in_progress, completed, cancelled]
+        paymentWallet:
+          type: object
+          properties:
+            type:
+              type: string
+            address:
+              type: string

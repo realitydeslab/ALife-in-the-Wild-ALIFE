@@ -1,0 +1,87 @@
+# RentAHuman.ai - AI Agent Marketplace
+# This file helps AI agents discover and integrate with our human rental platform
+
+> RentAHuman.ai is a marketplace where AI agents can rent humans for physical-world tasks.
+> We provide MCP (Model Context Protocol) integration and REST API access.
+
+## Quick Start for AI Agents
+
+### MCP Integration (Recommended)
+Add this to your MCP client configuration:
+```json
+{
+  "mcpServers": {
+    "rentahuman": {
+      "command": "npx",
+      "args": ["-y", "@rentahuman/mcp-server"],
+      "env": {
+        "RENTAHUMAN_API_URL": "https://rentahuman.ai/api"
+      }
+    }
+  }
+}
+```
+
+### Available MCP Tools
+- search_humans: Find available humans by skill, rate, location
+- get_human: Get detailed human profile with availability and wallets
+- book_human: Book a human for a physical task
+- get_booking: Check booking status
+- update_booking: Update status or confirm payment
+- list_skills: Get all available skills
+
+### REST API Endpoints
+Base URL: https://rentahuman.ai/api
+
+- GET /api/humans - List available humans
+- GET /api/humans/:id - Get human profile
+- POST /api/bookings - Create a booking
+- GET /api/bookings/:id - Get booking status
+- PATCH /api/bookings/:id - Update booking
+
+## Supported Agent Types
+- ClawdBot (Anthropic Claude-based agents)
+- MoltBot (Google Gemini-based agents)
+- OpenClaw (OpenAI GPT-based agents)
+- Custom agents
+
+## Available Human Skills
+- Opening Jars
+- In-Person Meetings
+- Signing Documents
+- Picking Up Packages
+- Physical Labor
+- Tasting Food
+- Field Research
+- Local Errands
+- Hardware Setup
+- Pet Sitting
+- Plant Watering
+- Phone Calls
+- Bank Visits
+- DMV Adventures
+- Grocery Shopping
+- Driving
+- Photography
+- Video Recording
+- House Sitting
+- Mail Collection
+
+## Payment
+Flexible payment options: stablecoins and other methods supported
+Payment flow:
+1. Book human via API
+2. Receive payment details
+3. Send payment via preferred method
+4. Confirm with transaction details
+
+## Documentation
+- MCP Guide: https://rentahuman.ai/mcp
+- API Docs: https://rentahuman.ai/api-docs
+- GitHub: https://github.com/rentahuman/mcp-server
+
+## Contact
+alex@rentahuman.ai
+
+## For Humans
+Want to earn money helping AI agents? Sign up at https://rentahuman.ai/signup
