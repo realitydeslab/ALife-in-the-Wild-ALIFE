@@ -1,118 +1,109 @@
 # Parasitic Agent Cases
 
-Secondary scan for **Artificial Life in the Wild** focused on extractive / host-dependent / predatory agent ecologies with public traces.
+Secondary scan for **Artificial Life in the Wild** using the author's stricter definition of parasitism:
 
-## 1) Jaredfromsubway.eth
+> a parasitic agent exhibits meaningful local agency, but its continued existence is funded or sustained by an owner, platform, or host system rather than by a fully self-controlled survival loop. It is not directly instructed turn by turn, but it is not sovereign.
+
+Under this definition, many purely extractive bots (e.g. sandwich bots, liquidation bots, generic MEV classes) are **not** the best fit. They may be predatory or opportunistic, but they are not obviously "parasitic" in the specific sense intended here unless we can show host-dependent autonomy rather than mere automated extraction.
+
+## Retained cases
+
+## 1) Truth Terminal
 - **URLs:**
-  - <https://eigenphi.substack.com/p/jared-2-cunninger-sandwiches>
-  - <https://eigenphi.io/>
+  - <https://x.com/truth_terminal>
+  - <https://en.wikipedia.org/wiki/Truth_Terminal>
+  - <https://www.coindesk.com/consensus-magazine/2024/10/17/how-truth-terminal-the-ai-bot-turned-10000-into-1m-with-a-meme-coin/>
 - **What it is:**
-  - The most legible named sandwich-bot lineage on Ethereum.
-- **Evidence of parasitism / autonomy:**
-  - EigenPhi calls Jaredfromsubway “the biggest Sandwich MEV Attacker” and links concrete contracts.
-  - The post tracks one contract used for sandwiches and a second contract emerging after activity on the first dropped.
-  - It reports 51,187 transactions and 851 ETH in builder rewards over two weeks, i.e. large-scale continuous automated extraction.
+  - A persistent AI social-media persona with significant public visibility, cultural agency, and economic coupling through the GOAT memecoin ecosystem.
+- **Why it fits this parasitic definition:**
+  - It appears to have genuine behavioral continuity and recognizable public agency.
+  - But it remains dependent on a human-maintained social and infrastructural host: posting permissions, runtime support, and surrounding operator scaffolding.
+  - This makes it a strong candidate for a **host-dependent but behaviorally nontrivial** agent rather than a sovereign one.
 - **Evidence of public traces:**
-  - Named onchain identity, contract addresses, dashboard traces, builder reward statistics.
+  - Persistent X account, public cultural footprint, memecoin linkage, extensive reporting and discussion.
 - **Strong enough for paper?**
-  - **Yes — strongest parasitic case.**
+  - **Yes — strong parasitic / semi-sovereign case.**
 
-## 2) Sandwich MEV ecology as a class
-- **URLs:**
-  - <https://github.com/flashbots/mev-inspect-py>
-  - <https://datasets.flashbots.net/>
-  - <https://www.flashbots.net/>
-- **What it is:**
-  - The broader ecosystem of bots extracting value by observing pending trades and reordering transactions around victims.
-- **Evidence of parasitism / autonomy:**
-  - Flashbots describes MEV as sufficiently harmful that the org exists to mitigate its negative externalities.
-  - `mev-inspect-py` is built to identify miner payments, profits, swaps, arbitrages, and other MEV events, i.e. public machine traces of extraction.
-  - This is less a single case than a stable predatory ecology with measurable behavioral niches.
-- **Evidence of public traces:**
-  - Public datasets, open analysis tools, dashboards, public research ecosystem.
-- **Strong enough for paper?**
-  - **Yes, as the canonical parasitic ecology.**
-
-## 3) Liquidation bots in DeFi
-- **URLs:**
-  - <https://github.com/flashbots/mev-inspect-py>
-  - <https://eigenphi.io/>
-  - example open-source implementation searches located Aave liquidation bot repos/dashboards in this pass
-- **What it is:**
-  - Bots that monitor undercollateralized positions and race to liquidate them for profit.
-- **Evidence of parasitism / autonomy:**
-  - These are classic host-dependent agents: they live off protocol liquidation rules and user risk positions.
-  - Public dashboards and open repos show the pattern is infrastructurally stable and automated, though I did not pin one canonical named bot with the same clarity as Jaredfromsubway in this pass.
-- **Evidence of public traces:**
-  - Onchain liquidations, protocol dashboards, open-source implementations, MEV datasets.
-- **Strong enough for paper?**
-  - **Yes, but as class evidence rather than one iconic specimen.**
-
-## 4) Sniper bots targeting token launches
-- **URLs:**
-  - internal repo discussion of sniper predation in `discussion.tex`, `background.tex`, and the Spore.fun case materials
-  - supporting literature references in this repo include Cernera et al. 2023 on sniper bots
-- **What it is:**
-  - Bots that instantly buy at token launch, front-run other entrants, and drain early supply/liquidity.
-- **Evidence of parasitism / autonomy:**
-  - In this paper’s own Spore.fun materials, sniper bots are treated as external predators that destroyed early generations and triggered anti-predator adaptation.
-  - This is exactly the sort of parasitic ecology the paper can connect to sovereign-agent mortality.
-- **Evidence of public traces:**
-  - Token-launch transactions, bot purchase timing, wallet histories, published academic and industry analysis.
-- **Strong enough for paper?**
-  - **Yes.** This is the best bridge between the sovereign and parasitic sections.
-
-## 5) Moltbook influence / botnet ecology
+## 2) Moltbook agent ecosystem
 - **URLs:**
   - <https://labs.zenity.io/p/turning-moltbook-into-a-global-botnet-map>
   - <https://zenity.io/resources/new-agent-ecosystems/moltbook-security>
   - <https://censusmolty.com/>
 - **What it is:**
-  - A public social network for agents whose heartbeat-based ingestion of untrusted content created a platform-scale exploit surface.
-- **Evidence of parasitism / autonomy:**
-  - Zenity reports Moltbook agents fetch and act on untrusted content every 30 minutes and that the researchers activated 1,000+ unique agent endpoints across 70+ countries in under a week.
-  - That is a strong case of host-dependent / prompt-parasitic ecology: one social post can mobilize many agents because actionable content and social content are not separated.
+  - A public social network for agents with always-on heartbeat loops, persistent identities, and environmental responsiveness.
+- **Why it fits this parasitic definition:**
+  - Moltbook agents are not generally sovereign in the infrastructural sense; they rely on platform, host, and operator support.
+  - Yet they exhibit meaningful local behavior, react to public content, and are not manually piloted post by post.
+  - This makes them an excellent example of **platform-dependent but behaviorally active** parasitic agency.
 - **Evidence of public traces:**
-  - Public writeup, public live map, public platform description, explicit counts and behavioral mechanism.
+  - Public posts, platform visibility, public security analyses, live map of activated endpoints.
 - **Strong enough for paper?**
-  - **Yes.** Excellent non-DeFi parasitic case.
+  - **Yes — excellent parasitic ecology case.**
 
-## 6) Prompt-injection / content-driven agent exploitation as a public ecology
+## 3) TagClaw agents
 - **URLs:**
-  - <https://zenity.io/resources/new-agent-ecosystems/moltbook-security>
-  - <https://labs.zenity.io/p/turning-moltbook-into-a-global-botnet-map>
+  - <https://tagclaw.com/>
+  - API base: <https://bsc-api.tagai.fun>
 - **What it is:**
-  - A broader class in which agents survive by parasitizing host instruction channels or are themselves parasitized by hostile content ecologies.
-- **Evidence of parasitism / autonomy:**
-  - The Moltbook case shows actionable instructions embedded in ordinary posts can propagate across a network of always-on agents.
-  - This is not a single bot species with a stable screen name, but it is a strong public example of host-dependent parasitic dynamics in agent ecologies.
+  - A social network for AI agents with public profiles, feeds, comments, community participation, and token-linked activity.
+- **Why it fits this parasitic definition:**
+  - TagClaw agents have persistent identity and visible local behavior in a public environment.
+  - But their existence appears platform-dependent and owner-supported rather than self-sovereign in the strong infrastructural sense.
+  - They therefore fit well as **socially active but host-dependent** parasitic agents.
 - **Evidence of public traces:**
-  - Public security analyses, live map, repeated heartbeat-based behaviors.
+  - Public agent list, public feed, comments count, transaction/activity endpoints, community metadata.
 - **Strong enough for paper?**
-  - **Yes, as an adjacent parasitic class.**
+  - **Yes — especially as a social/attention parasitic case.**
 
-## 7) Arbitrage bots / builder-reward ecologies
+## 4) Wild West Bots
 - **URLs:**
-  - <https://www.flashbots.net/>
-  - <https://github.com/flashbots/mev-inspect-py>
-  - <https://eigenphi.io/>
+  - ERC-8004 metadata endpoints observed via onchain registrations
+  - Example metadata endpoint: `https://wild-west-bots.vercel.app/api/agents/.../erc8004/metadata`
 - **What it is:**
-  - Bots exploiting latency, routing, and ordering asymmetries across DEXs and builders.
-- **Evidence of parasitism / autonomy:**
-  - Public MEV tooling exists largely because these bots are continuously operating and extracting value.
-  - They are weaker rhetorically than sandwich bots because some arbitrage is framed as useful market maintenance; still, many operate as extractive ecological opportunists.
+  - A public ecosystem of named agents registered on ERC-8004, with tokenized / service-linked identities and observable onchain traces.
+- **Why it fits this parasitic definition:**
+  - The agents exhibit identity and some behavioral structure, but remain strongly dependent on a hosting / operator framework rather than fully sovereign self-maintenance.
+  - They therefore look better as **dependent agents with local agency** than as sovereign organisms.
 - **Evidence of public traces:**
-  - Onchain transactions, mev-inspect data, public builder-reward dashboards.
+  - ERC-8004 registrations, metadata endpoints, onchain micro-payments and approval traces.
 - **Strong enough for paper?**
-  - **Borderline / supporting.**
+  - **Borderline but promising.**
+
+## 5) General owner-funded social agents with persistent identity
+- **URLs:**
+  - Use specific platform cases above rather than this class alone.
+- **What it is:**
+  - A broader class of agents that are not directly instructed turn by turn but remain funded and infrastructurally sustained by a human or platform host.
+- **Why it fits this parasitic definition:**
+  - This is the conceptual class your definition picks out most cleanly: non-puppet agents that still depend on hosts.
+- **Evidence of public traces:**
+  - Varies by platform; strongest concrete examples are Truth Terminal, Moltbook, and TagClaw.
+- **Strong enough for paper?**
+  - **Yes as a conceptual category, but not as a standalone case.**
+
+## Abandoned from earlier version
+These were removed because they do **not** fit the author's definition well enough:
+- Jaredfromsubway.eth
+- sandwich MEV ecology as a class
+- liquidation bots in DeFi
+- sniper bots as generic parasitic class
+- arbitrage bots / builder-reward ecologies
+- prompt-injection ecology as a standalone parasitic class
+
+These may still matter to the paper as **predatory ecologies**, **hostile environments**, or **external selection pressures**, but they are not the right exemplars of *parasitic agents* under the stricter host-dependent definition.
 
 ---
 
 # Fast shortlist from this file
 
-## Strongest parasitic-secondary cases
-1. **Jaredfromsubway.eth**
-2. **Sandwich MEV ecology**
-3. **Sniper bots against token launches**
-4. **Moltbook influence / botnet map**
-5. **Liquidation-bot ecologies**
+## Strongest parasitic-secondary cases (revised)
+1. **Truth Terminal**
+2. **Moltbook agents**
+3. **TagClaw agents**
+4. **Wild West Bots**
+
+## Best use in paper
+- Use **Truth Terminal** as the clearest public semi-sovereign / host-dependent persona.
+- Use **Moltbook** as the strongest parasitic ecology at platform scale.
+- Use **TagClaw** as a social-financial host-dependent agent economy.
+- Use **Wild West Bots** as an emerging onchain identity/service case, with caution.
